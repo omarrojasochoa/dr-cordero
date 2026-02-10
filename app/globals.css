@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply border-border outline-ring/50;
+}
+
+body {
+  @apply bg-bg-light text-dark;
+}
+
+section[id] {
+  scroll-margin-top: 96px;
+}
+
+/* Orange left border for about section */
+.orange-border-left {
+  @apply relative pl-4 md:pl-6;
+}
+
+.orange-border-left::before {
+  content: "";
+  @apply absolute left-0 top-0 w-1 h-full bg-primary;
+}
+
+/* Smooth transitions */
+.transition-smooth {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+/* Hero gradient overlay */
+.hero-overlay {
+  @apply absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-bg-light/80;
+}
+
+.navbar-border {
+  border: 1px solid var(--alpha-light-50, rgba(26, 26, 26, 0.06));
+  background: var(--alpha-light-700, rgba(26, 26, 26, 0.7));
+}
+
+.btn-cta {
+  border-radius: 100px;
+  border: 1px solid var(--Brand-300, #ff9736);
+  background: linear-gradient(90deg, #f35900 0%, #f37500 100%);
+  box-shadow: 0 0 12px 0 rgba(243, 117, 0, 0.6);
+}
+.border-secundary {
+  border: 1px solid var(--alpha-dark-50, rgba(255, 255, 255, 0.06));
+}
+.icon-doctor {
+  margin-top: -29%;
+  position: relative;
+}
+
+.title-section {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  border: 1px solid var(--zinc-200, #e4e4e7);
+}
+
+.bg-orange-blur{
+  background: radial-gradient(53.68% 50% at 50% 50%, #EA5B13 0%, #FF9736 15.38%, #FFC590 37.98%, #FFEEE1 70.19%, #F4F4F5 100%);
+}
+.image-play{
+    width: 100%;
+    max-width: 240px;
+}
+.btn-play-video{
+  border-radius: 200px;
+  border: 2px solid var(--Brand-300, #FF9736);
+  background: linear-gradient(90deg, #F35900 0%, #F37500 100%);
+  box-shadow: 0 4px 12px 0 rgba(243, 117, 0, 0.60);
+}
+.text-content-footer-section1{
+  width: 100%;
+  max-width: 450px;
+  place-self: center;
+}
+.bg-footer-section2{
+  border-top: 1px solid var(--b-w-white, #FFF);
+  background: rgba(255, 255, 255, 0.60);
+  backdrop-filter: blur(32px);
+}
