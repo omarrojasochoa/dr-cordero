@@ -27,3 +27,9 @@ Fecha: 2026-02-10
   - Implementado hook `useSmoothScroll` en `lib/lenis.ts` con configuración de Lenis y respeto a `prefers-reduced-motion`.
   - Integrado en el layout vía `Navbar` para aplicar smooth scrolling global.
   - Ajustado navegación por anchors con offset según altura del navbar.
+
+Fecha: 2026-02-10
+
+- Seguridad/Deploy:
+  - Actualizado Next.js a una versión segura para mitigar CVE-2025-66478.
+  - Migrado `@studio-freight/lenis` a `lenis` según el paquete oficial.
