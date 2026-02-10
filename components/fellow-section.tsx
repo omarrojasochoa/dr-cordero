@@ -40,7 +40,7 @@ export function FellowSection() {
 
           {/* Right Column - Text & CTA */}
           <div className="orange-border-left">
-            <p className="font-inter text-base md:text-body-lg text-zinc-900 mb-8 leading-relaxed">
+            <p className="font-inter text-base md:text-base text-zinc-900 mb-8 leading-relaxed">
               Más de 500 cirujanos ya han perfeccionado sus habilidades junto al Dr. Cristian Cordero. Aprende en vivo sus técnicas en rinoplastia: manejo de la punta nasal con extensor septal 593, mecánica valvular y obtención de cartílago costal por vía periareolar.
             </p>
             <Link

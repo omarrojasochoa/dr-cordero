@@ -13,7 +13,7 @@ export function MissionSection() {
             <h2 className="font-maven text-h4 font-semibold text-dark mb-6 text-balance">
               Donde la técnica<br></br> y la empatía operan juntas
             </h2>
-            <p className="text-base text-zinc-500 font-regular mb-6 leading-relaxed">
+            <p className="text-base text-zinc-500 font-inter mb-6 leading-relaxed">
               Nuestra filosofía se centra en lograr el mejor resultado para cada paciente, este enfoque implica dedicar el tiempo necesario tanto en la etapa de consulta como durante la cirugía, sin limitaciones de tiempo. Logrando un diseño de narices personalizadas que aseguren:
             </p>
             <ul className="space-y-4">
