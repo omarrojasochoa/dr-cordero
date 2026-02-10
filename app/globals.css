@@ -88,3 +88,44 @@ section[id] {
   background: rgba(255, 255, 255, 0.60);
   backdrop-filter: blur(32px);
 }
+.letter-spacing--2{
+  letter-spacing: -0.2px;
+}
+.bg-section1-follow{
+  background: radial-gradient(123.29% 100% at 50% 0%, #F35900 0%, #FF9736 17.52%, #FFC590 30.38%, #FFEEE1 60.49%, #F4F4F5 85%);
+}
+.text-content-footer-section1-follow{
+  width: 100%;
+  max-width: 42.5%;
+  place-self: center;
+}
+.card-regular{
+  border-radius: 24px;
+  border: 1px solid #E4E4E7;
+  background: var(--zinc-100, #F4F4F5);
+  box-shadow: 0 4px 8px 0 rgba(131, 48, 0, 0.05), 0 16px 24px 0 rgba(131, 48, 0, 0.06);
+}
+.card-regular.active{
+  border: 1.5px solid #DA3E00;
+  background: var(--b-w-white, #FFF);
+}
+.btn-card-regular{
+  border-radius: 100px;
+  border: 1px solid var(--zinc-700, #3F3F46);
+  background: var(--zinc-900, #18181B);
+  box-shadow: 0 4px 12px 0 rgba(24, 24, 27, 0.40);
+}
+.btn-card-regular.active{
+  border-radius: 100px;
+  border: 1px solid var(--Brand-300, #FF9736);
+  background: linear-gradient(90deg, #F35900 0%, #F37500 100%);
+  box-shadow: 0 2px 4px 0 rgba(243, 89, 0, 0.40), 0 4px 12px 0 rgba(243, 117, 0, 0.60);
+}
+#faq-accordion{
+  border-radius: 24px var(--3xl, 24px) 24px 24px;
+  border: 1px solid #E4E4E7;
+  background: var(--b-w-white, #FFF);
+  box-shadow: 0 4px 8px 0 rgba(131, 48, 0, 0.05), 0 16px 24px 0 rgba(131, 48, 0, 0.06);
+  max-width: 880px;
+  margin: 0 auto;
+}
