@@ -34,7 +34,7 @@ export function Footer() {
           {/* Logo & Branding */}
           <div className="text-center">
             <Image
-              src="/images/logo-black.svg"
+              src="/images/Logo-black.svg"
               alt="Dr. Cristian Cordero"
               height={64}
               width={300}

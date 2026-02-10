@@ -12,7 +12,7 @@ export function FellowSection() {
               {/* Background only for video */}
               <div className="absolute inset-0 flex items-center justify-center z-0">
                 <Image
-                  src="/images/simbolo-logo.svg"
+                  src="/images/Simbolo-logo.svg"
                   alt="Background decorativo"
                   fill
                   className="h-auto"
